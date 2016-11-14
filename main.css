@@ -1,0 +1,70 @@
+/* font-family: 'Orbitron', sans-serif;
+font-family: 'Rajdhani', sans-serif;
+*/
+
+/********************
+MAIN
+********************/
+body {
+	text-align:center;
+	padding:0;
+	margin:1px 0 0;
+	color:#666;
+	font-family:  'Rajdhani', sans-serif;
+	background:#cecece;
+}
+
+.wrapper{
+	text-align:left;
+	width:885px;
+	margin:auto;
+	position:relative;
+	padding:0;
+}
+
+
+/********************
+TITLE
+********************/
+ header {
+	 width:885px;
+	 height:80px;
+	 background:#f81;
+	 margin:0;
+	 padding:0;
+ }
+ 
+ header h1,h2{
+	 padding:17px 0 0 0;
+	 margin:0;
+	 text-align:center;
+	 font-size:210%;
+	 font-family: 'Orbitron', sans-serif;
+	 font-weight:800;
+ }
+ 
+/********************
+BODY
+********************/
+.summary {
+	 margin:0;
+	 padding:0 0 0 5px;
+	 position:relative;
+	 border-top:#fff 1px solid;
+	 width:885px;
+	 height:75px;
+	 background:#fff;
+}
+
+/********************
+SIDEBAR
+********************/
+.sidebar{
+  position:absolute;
+  top:210px;
+  left:600px;
+  width:280px;
+  background:#f81;
+  color:#fff;
+  padding:0 0 0 5px;
+}
